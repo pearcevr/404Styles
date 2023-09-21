@@ -1,1 +1,34 @@
-nav {background-color: #004464;}
+html{
+    background-color: #FAF9F6;
+}
+body{
+    font-family: 'lucida console';
+    color: #671212;
+}
+nav {
+    background-color: #1A4E66;
+    color:aliceblue;
+    display:flex;
+    align-items:flex-start;
+    justify-content:space-around;
+}
+footer {
+    background-color: #1A4E66;
+    color:aliceblue;
+    text-align: center;
+}
+a:visited {
+    color:aliceblue;
+}
+
+div{
+    display:flex;
+}
+
+div.text{
+    flex-direction: column;
+}
+a.home{
+
+    color:black;
+}
