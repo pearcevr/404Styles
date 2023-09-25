@@ -7,6 +7,7 @@ div, h1, h2, h3, h4, h5, h6, p {
 }
 a{
     text-decoration: none;
+    color:#FAF9F6;
 }
 a:hover {
     text-decoration: underline;
