@@ -19,6 +19,7 @@ body{
     padding: 0;
     border:0;
 }
+
 nav {
     padding: 25px 0% 35px 0%;
     background-color: #1A4E66;
@@ -47,6 +48,11 @@ nav a{
     margin-right: 1em;
 }
 
+nav a:hover{
+    color:#671212;
+    text-decoration: none;
+}
+
 div{
     display:flex;
 }
@@ -57,7 +63,7 @@ img{
 div.text{
     flex-direction: column;
     text-align: center;
-    
+    padding-top: 8%;
 }
 a.home{
 
@@ -73,6 +79,9 @@ h1{
 h2{
     font-size: 3vw;
     
+}
+div p, h1, h2, a{
+    margin: 10px;
 }
 footer p{
     padding-top: 5px;
