@@ -1,5 +1,12 @@
+.root {
+
+--offwht: #FAF9F6;
+--rd:  #671212;
+--tl:#1A4E66;
+}
+
 html{
-    background-color: #FAF9F6;
+    background-color: var(--offwht);
 }
 div, h1, h2, h3, h4, h5, h6, p {
     margin: 0;
@@ -7,7 +14,7 @@ div, h1, h2, h3, h4, h5, h6, p {
 }
 a{
     text-decoration: none;
-    color:#FAF9F6;
+    color:var(--offwht);
 }
 a:hover {
     text-decoration: underline;
@@ -15,7 +22,7 @@ a:hover {
 
 body{
     font-family: 'lucida console';
-    color: #671212;
+    color: rd;
     margin: 0;
     padding: 0;
     border:0;
@@ -23,8 +30,8 @@ body{
 
 nav {
     padding: 25px 0% 35px 0%;
-    background-color: #1A4E66;
-    color:aliceblue;
+    background-color:var(--tl);
+    color:var(--offwht);
     display:flex;
     align-items:center;
     justify-content:flex-start;
@@ -32,7 +39,7 @@ nav {
     font-family: serif;
 }
 footer {
-    background-color: #1A4E66;
+    background-color:var(--tl);
     color:aliceblue;
     text-align: center;
     position: absolute;
@@ -43,14 +50,14 @@ footer {
    
 }
 a:visited {
-    color:aliceblue;
+    color:var(--offwht);
 }
 nav a{
     margin-right: 1em;
 }
 
 nav a:hover{
-    color:#671212;
+    color:var(--rd);
     text-decoration: none;
 }
 
