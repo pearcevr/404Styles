@@ -54,7 +54,7 @@ nav a:hover{
     text-decoration: none;
 }
 
-div{
+div.wrap{
     display:flex;
 }
 img{
@@ -86,4 +86,19 @@ div p, h1, h2, a{
 }
 footer p{
     padding-top: 5px;
+}
+@media screen and (max-width:768px)  {
+div.wrap {
+    flex-direction: column;
+}
+.text {
+    order: -1;
+}
+
+img {
+    align-items:center;
+    padding-left: 8%;
+    width: 100%;
+}
+
 }
